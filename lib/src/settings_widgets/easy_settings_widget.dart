@@ -10,8 +10,7 @@ import 'package:flutter/material.dart';
 /// Space between sections can be customized with [spaceBetweenSections]
 class EasySettingsWidget extends StatefulWidget {
   const EasySettingsWidget(
-      {Key? key, this.sectionStyle, this.spaceBetweenSections = 20})
-      : super(key: key);
+      {super.key, this.sectionStyle, this.spaceBetweenSections = 20});
 
   final TextStyle? sectionStyle;
 

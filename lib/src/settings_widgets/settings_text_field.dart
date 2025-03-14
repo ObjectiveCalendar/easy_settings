@@ -3,8 +3,7 @@ import 'package:flutter/material.dart';
 
 /// A TextField that updates the [ISettingsProperty] with key [settingsPropertyKey] every time it losts focus.
 class SettingsTextField<T> extends StatefulWidget {
-  const SettingsTextField({Key? key, required this.settingsPropertyKey})
-      : super(key: key);
+  const SettingsTextField({super.key, required this.settingsPropertyKey});
 
   final String settingsPropertyKey;
 

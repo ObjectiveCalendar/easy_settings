@@ -5,11 +5,10 @@ import 'package:flutter/material.dart';
 /// Displays [settingsCategory.topChild] if not null, then sections' title and their settings elements from [settingsCategory.settingsSections].
 class SettingsTab extends StatelessWidget {
   const SettingsTab(
-      {Key? key,
+      {super.key,
       required this.settingsCategory,
       required this.spaceBetweenSections,
-      this.sectionStyle})
-      : super(key: key);
+      this.sectionStyle});
 
   final SettingsCategory settingsCategory;
 

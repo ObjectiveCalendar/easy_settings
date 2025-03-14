@@ -11,8 +11,7 @@ import 'package:flutter/material.dart';
 
 /// Displays [settingsElement] depending on its type.
 class SettingsTile extends StatefulWidget {
-  const SettingsTile({Key? key, required this.settingsElement})
-      : super(key: key);
+  const SettingsTile({super.key, required this.settingsElement});
 
   final ISettingsElement settingsElement;
 
