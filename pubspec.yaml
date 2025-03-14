@@ -1,10 +1,10 @@
 name: easy_settings
-description: A package to make settings management easier.
-version: 1.0.0
+description: A package to make settings management easier with a beautiful and appealing user interface.
+version: 1.0.1
 homepage: https://github.com/ObjectiveCalendar/easy_settings
 
 environment:
-  sdk: ">=2.17.6 <3.0.0"
+  sdk: ">=2.17.6 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
